@@ -1,0 +1,17 @@
+var fizzBuzz = function(n) {
+    var array=[];
+    for(var i=0;i<n;i++)
+    {
+        j=i+1;
+        if(j%15 == 0)
+            array[i]="FizzBuzz";
+       else if(j%3 ==0)
+            array[i]="Fizz";
+       else if( j%5 == 0)
+            array[i]="Buzz";
+        else
+            array[i] =j.toString();
+    }
+    return array;
+    
+};
